@@ -23,7 +23,7 @@ public class RadioGroupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 RadioButton rb = (RadioButton) view;
-                tv.setText(rb.getText() + "chosen");
+                tv.setText(rb.getText() + " chosen");
             }
         };
 
